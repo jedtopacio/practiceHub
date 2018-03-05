@@ -12,3 +12,11 @@ script:
 
 after_success:
   - codecov --token=b811a6ac-68c8-484b-af22-c475fe3e11db
+
+deploy:
+  provider: s3
+  access_key_id: "AKIAJE4YCWYVA3OIGA6Q"
+  secret_access_key: "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"
+  bucket: "practicejedbucket"
+  skip_cleanup: true
+  region: us-west-2
