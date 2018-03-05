@@ -1,0 +1,15 @@
+language: python
+
+python: 
+  - "2.7"
+  - "3.3"
+
+install:
+  - pip install -r requirements.txt
+
+script:
+  - python -m unittest discover -v ./travis_tst/
+  - coverage run ./travis_tst/test_increment.py
+
+after_success:
+  - codecov --token=b811a6ac-68c8-484b-af22-c475fe3e11db
