@@ -19,4 +19,3 @@ deploy:
   secret_access_key: "lqHkVQbTbd/E43l1Ya/0h/EUKfF3kp5xY9HhD15+"
   bucket: "practicejedbucket"
   skip_cleanup: true
-  region: us-west-2
