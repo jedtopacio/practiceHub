@@ -17,5 +17,5 @@ deploy:
   provider: s3
   access_key_id: "AKIAJE4YCWYVA3OIGA6Q"
   secret_access_key: "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"
-  bucket: "practicejedbucket"
+  bucket: "practicejedbucketfr"
   skip_cleanup: true
